@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TachometerComponent } from './tachometer/tachometer.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TachometerComponent
   ],
   imports: [
     BrowserModule
